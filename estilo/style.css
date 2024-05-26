@@ -1,13 +1,17 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+
 *{margin: auto; padding: 0;}
+
 body{
     font-family: 'Rubik Wet Paint', cursive;
     display: flex;
     flex-flow:  column nowrap;
     padding: 20px;
 }
+/*Testes*/
 div {
 display: inline-block;
 padding-top: 50px;
