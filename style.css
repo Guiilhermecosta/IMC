@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+*{margin: auto; padding: 0;}
+body{
+    font-family: 'Rubik Wet Paint', cursive;
+    display: flex;
+    flex-flow:  column nowrap;
+    padding: 20px;
+}
+div {
+display: inline-block;
+padding-top: 50px;
+text-align: center; 
+}
+div:hover :not(:hover){
+opacity: 0.3;
+}
+
+img:hover {
+scale: 1.1;
+}
+div img {
+border: 1px solid blue; 
+width: 150px;
+height: 150px;
+}

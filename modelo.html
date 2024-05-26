@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>
+    Calcular o IMC
+  </h1>
+ <h2>Descubra se você está no peso ideal!</h2>
+  <h2>Peso ideal: IMC entre 18,5 e 25</h2>
+  <p>Insira seu peso (kg)</p>
+
+  <input id="peso" type="number">
+  <p>Insira sua altura (m)</p>
+
+  <input id="altura" type="number">
+  <button onclick="verificar()">Verificar</button>  
+<h2 id="resultado"></h2>
+<div>
+  <img src="bugdroid.png" alt="efeito">
+  <img src="dan-droids-pq.png" alt="efeito">
+  <img src="img-650.jpg" alt="efeito">
+</div>
+    <script>
+function verificar() {
+  var peso = document.getElementById("peso").value;
+  var altura = document.getElementById("altura").value;
+  var res = document.getElementById("resultado");
+  var imc = peso / altura ** 2;
+  var imc2 = imc.toFixed(2);
+  res.innerHTML = "imc: " + imc2;
+}
+</script>
+</body>
+</html>
