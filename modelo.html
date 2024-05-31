@@ -1,31 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMC</title>
    <link rel="stylesheet" href="estilo/style.css">
-</head>
-<body>
-  <h1>
-    Calcular o IMC
-  </h1>
- <h2>Descubra se você está no peso ideal!</h2>
-  <h2>Peso ideal: IMC entre 18,5 e 25</h2>
-  <p>Insira seu peso (kg)</p>
+  </head>
+  <body>
+    <h1>Calcular o IMC</h1>
+      <h2>Descubra se você está no peso ideal!</h2>
+      <h2>Peso ideal: IMC entre 18,5 e 25</h2>
+      <p>Insira seu peso (kg):</p>
 
-  <input id="peso" type="number">
-  <p>Insira sua altura (m)</p>
+      <input id="peso" type="number" placeholder="Exemplo 80">
+      <p>Insira sua altura (m):</p>
 
-  <input id="altura" type="number">
-  <button onclick="verificar()">Verificar</button>  
-<h2 id="resultado"></h2>
-<div> <!--Testes-->
-  <img src="imagens/bugdroid.png" alt="efeito">
-  <img src="imagens/dan-droids-pq.png" alt="efeito">
-  <img src="imagens/img-650.jpg" alt="efeito">
-</div>
-    <script src="javaScript/dev.js"></script>
-</body>
+      <input id="altura" type="number" placeholder="Exemplo 1.6">
+      <button onclick="verificar()">Verificar</button>  
+      <h2 id="resultado"></h2>
+
+    <script src="javaScript/script.js"></script>
+  </body>
 </html>
