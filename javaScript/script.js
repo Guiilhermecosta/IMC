@@ -5,4 +5,8 @@ function verificar() {
     var imc = peso / altura ** 2;
     var imc2 = imc.toFixed(2);
     res.innerHTML = "imc: " + imc2;
+    if (altura == 0 || peso == 0) {
+      alert("Adicione valores!")
+      res.innerHTML = ""
+    }
   }
